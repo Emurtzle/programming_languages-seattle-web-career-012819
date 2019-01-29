@@ -7,5 +7,6 @@ def reformat_languages(languages)
         new_hash[k] = v
       end
     end
+    binding.pry
     new_hash
 end
