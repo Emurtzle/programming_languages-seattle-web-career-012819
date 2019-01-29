@@ -7,6 +7,6 @@ def reformat_languages(languages)
         new_hash[k] = {type: v[:type], style: type}
       end
     end
-    binding.pry
+  #  binding.pry
     new_hash
 end
